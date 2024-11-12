@@ -35,13 +35,14 @@ Technologies Used
 
 Screenshots
 
-![image](https://github.com/user-attachments/assets/1b1b0b54-4a7c-4086-a091-6985a0899783)
-![image](https://github.com/user-attachments/assets/76eddb9a-9c0d-454e-acef-31f2d1c4e4d4)
-![image](https://github.com/user-attachments/assets/349de63a-563d-4293-832e-2f53a2b4ea63)
-![image](https://github.com/user-attachments/assets/6043e500-ea28-4078-8bdf-0b0ed9096c7f)
-![image](https://github.com/user-attachments/assets/d0759b58-a9ba-445b-b9d5-aa1cadab7c93)
-![image](https://github.com/user-attachments/assets/5020d6ec-fd4d-46cf-b622-91ed42d06774)
-![image](https://github.com/user-attachments/assets/e6cf481d-a293-468b-9430-908d76cd1b38)
+![image](https://github.com/user-attachments/assets/37c54b7c-8b6c-49d8-a887-a4422f8896b9)
+![image](https://github.com/user-attachments/assets/6a39249b-042b-45ac-baf8-81292f63886f)
+![image](https://github.com/user-attachments/assets/41627287-feb8-447d-96a4-922c30c10fe8)
+![image](https://github.com/user-attachments/assets/3b35c27d-f3ea-4fc5-bd8d-94c86626d5be)
+![image](https://github.com/user-attachments/assets/10638ee8-4674-450a-8e65-c8a96980aa33)
+![image](https://github.com/user-attachments/assets/329542cd-7206-4299-acbb-91b23efa4344)
+![image](https://github.com/user-attachments/assets/2ed87d31-105e-4564-8593-dd1ab3608fab)
+
 
 
 
