@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Budget Dashboard</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   <div class="dashboard">
+       <h1>Personal Budget Dashboard</h1>
+       
+       <!-- Monthly Budget Form -->
+       <div class="budget-form">
+           <h2>Set Monthly Budget</h2>
+           <form id="monthlyBudgetForm">
+               <input type="number" id="monthlyBudget" placeholder="Enter Monthly Budget" required>
+               <button type="submit">Set Budget</button>
+           </form>
+       </div>
+       
+       <!-- Budget Form Section -->
+       <div class="budget-form">
+           <h2>Add Budget Item</h2>
+           <form id="budgetForm">
+               <input type="text" id="itemName" placeholder="Item Name" required>
+               <input type="number" id="itemAmount" placeholder="Amount" required>
+               <select id="itemCategory" required>
+                   <option value="">Select Category</option>
+                   <option value="income">Income</option>
+                   <option value="housing">Housing</option>
+                   <option value="food">Food</option>
+                   <option value="transportation">Transportation</option>
+                   <option value="utilities">Utilities</option>
+                   <option value="entertainment">Entertainment</option>
+                   <option value="other">Other</option>
+               </select>
+               <button type="submit">Add Item</button>
+           </form>
+       </div>
+
+       <!-- Budget Summary Section -->
+       <div class="budget-summary">
+           <h2>Budget Summary</h2>
+           <div class="summary-grid">
+               <div class="summary-item">
+                   <p>Monthly Budget</p>
+                   <span id="allocatedBudget">$0</span>
+               </div>
+               <div class="summary-item">
+                   <p>Total Income</p>
+                   <span id="totalIncome">$0</span>
+               </div>
+               <div class="summary-item">
+                   <p>Total Expenses</p>
+                   <span id="totalExpenses">$0</span>
+               </div>
+               <div class="summary-item">
+                   <p>Remaining Budget</p>
+                   <span id="remainingBudget">$0</span>
+               </div>
+           </div>
+           <!-- Budget Progress Container -->
+           <div class="budget-progress-container"></div>
+       </div>
+
+       <!-- Charts Section -->
+       <div class="charts-container">
+           <div class="chart">
+               <h3>Expense Distribution</h3>
+               <div class="chart-wrapper">
+                   <canvas id="expenseChart"></canvas>
+               </div>
+           </div>
+           <div class="chart">
+               <h3>Monthly Spending Trend</h3>
+               <div class="chart-wrapper">
+                   <canvas id="trendChart"></canvas>
+               </div>
+           </div>
+       </div>
+
+       <!-- Budget List Section -->
+       <div class="budget-list">
+           <h2>Budget Items</h2>
+           <ul id="budgetItems"></ul>
+       </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
